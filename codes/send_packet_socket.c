@@ -8,7 +8,7 @@
 void main()
 {
     struct sockaddr_in dest_info;
-    char *data = "UDP message\n";
+    char *data = "UDP message Akash Kumar\n";
 
     // Step 1: Create a network socket
     int sock = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
