@@ -5,4 +5,4 @@ def print_pkt(pkt):
   pkt.show()
   print("Packet received.")
 
-pkt = sniff(filter='icmp',prn=print_pkt)
+pkt = sniff(iface='eth1', filter='icmp',prn=print_pkt)
